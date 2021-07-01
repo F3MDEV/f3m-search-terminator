@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://f3m.pt/" rel="noopener" target="_blank"><img width="350" src="https://imgur.com/a/Auc0dG1" alt="F3M logo"></a></p>
+  <a href="https://f3m.pt/" rel="noopener" target="_blank"><img width="350" src="https://i.imgur.com/xIfYBjh.png" alt="F3M logo"></a></p>
 </p>
 
 <h1 align="center">F3M Search-terminator</h1>
@@ -95,20 +95,21 @@ ReactDOM.render(<App />, document.querySelector("#app"));
       </td>
       <td>
         <span>
-        <>
-            <Table aria-label="simple table">
-                <TableBody>
-                    <TableRow>
-                    <TableCell component="td" scope="row" style={{ display: 'flex', alignItems: 'center' }}>
+            <blockquote>
+                <Table aria-label="simple table">
+                    <TableBody>
+                        <TableRow>
+                        <TableCell component="td" scope="row" style={{ display: 'flex', alignItems: 'center' }}>
                         <Avatar alt="Cesária Costa" src="../componentAssets/account-circle.svg" style={{ marginRight: 10}} />
-                        Cesária Costa
-                    </TableCell>
-                    <TableCell>123456789</TableCell>
-                    <TableCell>86 anos</TableCell>
-                    </TableRow>
-                </TableBody>
-            </Table>
-        </>
+                            Cesária Costa
+                        </blockquote>
+                        </TableCell>
+                        <TableCell>123456789</TableCell>
+                        <TableCell>86 anos</TableCell>
+                        </TableRow>
+                    </TableBody>
+                </Table>
+            </blockquote>
         </span>
       </td>
     </tr>
@@ -380,11 +381,13 @@ ReactDOM.render(<App />, document.querySelector("#app"));
       </td>
       <td>
         <span>
-        (
-        <InputAdornment position="start">
-            <SearchIcon color="primary" fontSize="large" />
-        </InputAdornment>
-        )
+            <blockquote>
+                (
+                <InputAdornment position="start">
+                    <SearchIcon color="primary" fontSize="large" />
+                </InputAdornment>
+                )
+            </blockquote>
         </span>
       </td>
     </tr>
@@ -404,16 +407,18 @@ ReactDOM.render(<App />, document.querySelector("#app"));
       </td>
       <td>
         <span>
-        (
-            <>
-            <InputAdornment position="end">
-                <IconButton
-                size="small">
-                <CloseIcon />
-                </IconButton>
-            </InputAdornment>
-            </>
-        )
+            <blockquote>
+            (
+                <>
+                <InputAdornment position="end">
+                    <IconButton
+                    size="small">
+                    <CloseIcon />
+                    </IconButton>
+                </InputAdornment>
+                </>
+            )
+            </blockquote>
         </span>
       </td>
     </tr>
