@@ -408,18 +408,16 @@ ReactDOM.render(<App />, document.querySelector("#app"));
         </div>
       </td>
       <td>
-        <span>
             <pre>
                 <code>
-                    <InputAdornment position="end">
-                        <IconButton
-                        size="small">
-                        <CloseIcon />
+                    &lt;InputAdornment position="end" &gt;
+                        &lt;IconButton
+                        size="small"&gt;
+                        &lt;CloseIcon /&gt;
                         </IconButton>
-                    </InputAdornment>
+                    &lt;/InputAdornment &gt;
                 </code>
             </pre>
-        </span>
       </td>
     </tr>
   </tbody>
