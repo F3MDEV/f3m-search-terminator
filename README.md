@@ -94,11 +94,7 @@ ReactDOM.render(<App />, document.querySelector("#app"));
         </div>
       </td>
       <td>
-        &lt;InputAdornment position="start"&gt;
-                &lt;SearchIcon color="primary" fontSize="large" /&gt;
-            &lt;/InputAdornment&gt;
-
-        <code>
+      <code>
             &lt;Table aria-label="simple table" &gt;
                 &lt;TableBody&gt;
                     &lt;TableRow&gt;
