@@ -94,25 +94,25 @@ ReactDOM.render(<App />, document.querySelector("#app"));
         </div>
       </td>
       <td>
-        <span>
-            <pre>
-                <code>
-                    <Table aria-label="simple table">
-                        <TableBody>
-                            <TableRow>
-                            <TableCell component="td" scope="row" style={{ display: 'flex', alignItems: 'center' }}>
-                            <Avatar alt="Cesária Costa" src="../componentAssets/account-circle.svg" style={{ marginRight: 10}} />
-                                Cesária Costa
-                            </code>
-                            </TableCell>
-                            <TableCell>123456789</TableCell>
-                            <TableCell>86 anos</TableCell>
-                            </TableRow>
-                        </TableBody>
-                    </Table>
-                </pre>
-            </code>
-        </span>
+        &lt;InputAdornment position="start"&gt;
+                &lt;SearchIcon color="primary" fontSize="large" /&gt;
+            &lt;/InputAdornment&gt;
+
+        <code>
+            &lt;Table aria-label="simple table" &gt;
+                &lt;TableBody&gt;
+                    &lt;TableRow&gt;
+                    &lt;TableCell component="td" scope="row" style={{ display: 'flex', alignItems: 'center' }}&gt;
+                    &lt;Avatar alt="Cesária Costa" src="../componentAssets/account-circle.svg" style={{ marginRight: 10}} /&gt;
+                        Cesária Costa
+                    &lt;/code&gt;
+                    &lt;/TableCell&gt;
+                    &lt;TableCell&gt;123456789&lt;/TableCell&gt;
+                    &lt;TableCell&gt;86 anos&lt;/TableCell&gt;
+                    &lt;/TableRow&gt;
+                &lt;/TableBody&gt;
+            &lt;/Table&gt;
+        </code>
       </td>
     </tr>
     <tr>
@@ -382,15 +382,11 @@ ReactDOM.render(<App />, document.querySelector("#app"));
         </div>
       </td>
       <td>
-        <span>
-            <pre>
-                <code>
-                    <InputAdornment position="start">
-                        <SearchIcon color="primary" fontSize="large" />
-                    </InputAdornment>
-                </pre>
-            </code>
-        </span>
+        <code>
+            &lt;InputAdornment position="start"&gt;
+                &lt;SearchIcon color="primary" fontSize="large" /&gt;
+            &lt;/InputAdornment&gt;
+        </code>
       </td>
     </tr>
     <tr>
@@ -408,18 +404,17 @@ ReactDOM.render(<App />, document.querySelector("#app"));
         </div>
       </td>
       <td>
-            <pre>
-                <code>
-                    &lt;InputAdornment position="end" &gt;
-                        &lt;IconButton
-                        size="small"&gt;
-                        &lt;CloseIcon /&gt;
-                        </IconButton>
-                    &lt;/InputAdornment &gt;
-                </code>
-            </pre>
+        <code>
+            &lt;InputAdornment position="end"&gt;
+                &lt;IconButton
+                size="small"&gt;
+                &lt;CloseIcon /&gt;
+                &lt;/IconButton&gt;
+            &lt;/InputAdornment&gt;
+        </code>
       </td>
     </tr>
+
   </tbody>
 </table>
 <br>
