@@ -95,21 +95,21 @@ ReactDOM.render(<App />, document.querySelector("#app"));
       </td>
       <td>
         <span>
-            <blockquote>
+            <code>
                 <Table aria-label="simple table">
                     <TableBody>
                         <TableRow>
                         <TableCell component="td" scope="row" style={{ display: 'flex', alignItems: 'center' }}>
                         <Avatar alt="Cesária Costa" src="../componentAssets/account-circle.svg" style={{ marginRight: 10}} />
                             Cesária Costa
-                        </blockquote>
+                        </code>
                         </TableCell>
                         <TableCell>123456789</TableCell>
                         <TableCell>86 anos</TableCell>
                         </TableRow>
                     </TableBody>
                 </Table>
-            </blockquote>
+            </code>
         </span>
       </td>
     </tr>
@@ -381,13 +381,13 @@ ReactDOM.render(<App />, document.querySelector("#app"));
       </td>
       <td>
         <span>
-            <blockquote>
+            <code>
                 (
                 <InputAdornment position="start">
                     <SearchIcon color="primary" fontSize="large" />
                 </InputAdornment>
                 )
-            </blockquote>
+            </code>
         </span>
       </td>
     </tr>
@@ -407,7 +407,7 @@ ReactDOM.render(<App />, document.querySelector("#app"));
       </td>
       <td>
         <span>
-            <blockquote>
+            <code>
             (
                 <>
                 <InputAdornment position="end">
@@ -418,7 +418,7 @@ ReactDOM.render(<App />, document.querySelector("#app"));
                 </InputAdornment>
                 </>
             )
-            </blockquote>
+            </code>
         </span>
       </td>
     </tr>
